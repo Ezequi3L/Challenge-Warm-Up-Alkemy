@@ -13,4 +13,4 @@ public class GetUserDto {
 
     private String username;
     private String email;
-        }
+}

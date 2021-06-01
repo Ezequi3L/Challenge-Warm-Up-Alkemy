@@ -12,13 +12,13 @@ import java.util.Date;
 
 @Log
 @Component
-public class JwtProvider {
+public class JwtTokenProvider {
 
     public static final String TOKEN_HEADER = "Authorization";
     public static final String TOKEN_PREFIX = "Bearer ";
     public static final String TOKEN_TYPE = "JWT";
 
-    @Value("${jwt.secret:FaltaCalleYClaseCompaSeNota}")
+    @Value("${jwt.secret:9z$C&F)J@NcRfUjXn2r5u8x/A%D*G-KaPdSgVkYp3s6v9y$B&E(H+MbQeThWmZq4}")
     private String jwtSecret;
 
     @Value("${jwt.token-expiration:86400}")
