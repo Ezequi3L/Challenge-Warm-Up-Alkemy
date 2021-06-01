@@ -73,15 +73,15 @@ public class PostController {
         return new ResponseEntity(HttpStatus.ACCEPTED);
     }
 
-    @GetMapping
-    public List<Post> searchByTitle(@RequestParam(required = false) String title) {
-        return postService.findByTitle(title);
-    }
-
-    @GetMapping
-    public List<Post> searchByCategory(@RequestParam(required = false) String category) {
-        return postService.findByCategory(category);
-    }
+//    @GetMapping
+//    public List<Post> searchByTitle(@RequestParam(required = false) String title) {
+//        return postService.findByTitle(title);
+//    }
+//
+//    @GetMapping
+//    public List<Post> searchByCategory(@RequestParam(required = false) String category) {
+//        return postService.findByCategory(category);
+//    }
 
 //    @GetMapping
 //    public List<Post> searchByTitleAndCategory(@RequestParam(required = false) String title, @RequestParam(required = false) String category){
